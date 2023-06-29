@@ -10,14 +10,13 @@
         <img class="logo" src="img/logosite2.png" alt="Logo do site">
         <nav class="menu">
            <a class="menu-item">Artigos</a>
-           <a class="menu-item">Músicas</a>
            <a class="menu-item">Podcasts</a>
            <a class="menu-item">Psicólogos</a>
        </nav>
        </header>
   <main class="conteudo">     
   <h1 class="titulo">Questionário de Ansiedade</h1>
-  <p class="paragrafo">Essas perguntas abordam diferentes aspectos relacionados à ansiedade e podem ajudar a fornecer uma avaliação mais abrangente do nível de ansiedade de cada pessoa. Lembre-se sempre de que o questionário online não substitui uma avaliação profissional. É importante de suma importância buscar a ajuda de um profissional de saúde mental caso os resultados indiquem um nível significativo de ansiedade.</p>
+  <p class="paragrafo">Essas perguntas abordam diferentes aspectos relacionados à ansiedade e podem ajudar a fornecer uma avaliação mais abrangente do nível de ansiedade de cada pessoa. Lembre-se sempre de que o questionário online não substitui uma avaliação profissional. É de suma importância buscar a ajuda de um profissional de saúde mental caso os resultados indiquem um nível significativo de ansiedade.</p>
 
   <form id="formulario">
     <div class="perguntas">
@@ -110,6 +109,10 @@
   </div>
 </main>
 
+<footer class="rodape">
+  <img class="rodape-imagem" src="img/partebaixo.png">
+ </footer>
+
   <script>
     function calculateScore() {
       var form = document.getElementById("formulario");
@@ -134,15 +137,19 @@
       var scoreText = document.getElementById("score");
       var analise = document.getElementById("analise");
 
-      result.style.display ["resposta"] = "block";
-      scoreText.textContent ["resposta"] = "Sua pontuação é: " + score;
+      result.style.display = "block";
+      scoreText.textContent = "Sua pontuação é: " + score;
+
+      var respostaBaixa = "De acordo com as suas respostas do formulário, você pode ter uma baixa pontuação de ansiedade.";
+      var respostaModerada = "De acordo com as suas respostas do formulário, você pode ter uma pontuação de ansiedade moderada. Recomenda-se buscar ajuda profissional.";
+      var respostaSignificativa = "De acordo com as suas respostas do formulário, você pode ter uma pontuação de ansiedade significativa. É de suma importância buscar ajuda profissional para melhores conclusões.";
 
       if (score <= 3) {
-        analise.textContent ["resposta"] = "Você tem uma baixa pontuação de ansiedade.";
-      } else if (score = 4) {
-        analise.textContent ["resposta"] = "Você tem uma pontuação de ansiedade moderada. Recomenda-se buscar ajuda profissional";
-      } else {
-        analise.textContent ["resposta"] = "Você tem uma pontuação de ansiedade significativa. Se faz de suma importância buscar ajuda profissional para melhores conclusões.";
+      analise.textContent = respostaBaixa;
+      }else if (score > 3 && score <=6) {
+      analise.textContent = respostaModerada;
+      }else {
+      analise.textContent = respostaSignificativa;
       }
     }
   </script>

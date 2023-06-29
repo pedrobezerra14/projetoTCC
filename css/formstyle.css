@@ -54,8 +54,9 @@ body{
     font-weight: 400;
     color:#FFF2E7;
     font-size: 64px;
-    margin-bottom: 32px;
+    margin-bottom: 48px;
     margin-left: 32px;
+    margin-top: 32px;
 }
 
 .paragrafo{
@@ -65,7 +66,37 @@ body{
     font-family: 'Sarala', sans-serif;
     font-weight: 300;
     margin-left: 24px;
-    margin-bottom: 24px;
+    margin-bottom: 48px;
+}
+
+.formulario{   
+    border-top: 0.4px solid #FFF2E7; 
+    padding-top: 48px;
+    padding-bottom: 48px;
+    padding: 30px;
+}
+
+.perguntas{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFF2E7;
+    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+}
+
+.opcoes{
+    display: flex;
+    width: 363px;
+    height: 44px;
+    flex-direction: row;
+    justify-content: center;
+    color: #ECD6C4;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0.70px;
 }
 
 .botao{
@@ -84,4 +115,15 @@ body{
 .botao:hover{
     background-color: rgba(236, 214, 196, 0.53);
     transition-duration: 0.6s;
+}
+
+.rodape{
+    border-top: 0.4px solid #FFF2E7;
+    padding: 32px;
+}
+
+.rodape-imagem{
+    height: 120px;
+    display: block;
+    margin: 0 auto ;
 }
