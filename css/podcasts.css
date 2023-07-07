@@ -54,6 +54,7 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
+    margin: 48px;
 }
 
 .conteudo-principal-escrito{
@@ -72,56 +73,26 @@ body{
 .subtitulo{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
-    color: #ECD6C4;
+    color: #FFF2E7;
     font-size: 32px;
-}
-
-.botao{
-    background-color: #ECD6C4;
-  width: 180px;
-  height: 60px;
-  border: none;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 20px;
-  font-family: 'Sarala', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: #2F2325;
-}
-
-.botao:hover{
-    background-color: rgba(236, 214, 196, 0.53);
-    transition-duration: 0.6s;
 }
 
 .conteudo-principal-imagem{
-    height: 430px;
+    height: 320px;
 }
 
 .conteudo-secundario{
-    display: flex;
-    flex-direction: column;
+    display:flex;
     align-items: center;
-    gap: 24px;
-    margin-top: 48px;
-}
-
-.titulo2{
+    justify-content: space-around;
+    margin: 48px;
     border-top: 0.4px solid #FFF2E7;
-    padding-top: 48px;
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    color:#FFF2E7;
-    font-size: 32px;
-    margin-bottom: 16px;
 }
 
-.paragrafo{
-    color: #ECD6C4;
-    text-align: center;
-    font-size: 18px;
-    font-family: 'Sarala', sans-serif;
-    font-weight: 300;
+.podcast-categoria{
+    font-family: 'Righteous', cursive;
+    color: #FFF2E7;
+    font-size: 52px;
 }
 
 .rodape{
