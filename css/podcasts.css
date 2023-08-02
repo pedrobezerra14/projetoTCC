@@ -54,45 +54,91 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 48px;
+    margin: 52px;
+
+    padding: 170px;
+
 }
 
 .conteudo-principal-escrito{
     display: flex;
     flex-direction: column;
-    gap: 24px;
+    gap: 18px;
 }
 
 .titulo{
     font-family: 'Righteous', cursive;
     font-weight: 400;
     color:#FFF2E7;
-    font-size: 120px;
+    font-size: 172px;
 }
 
 .subtitulo{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     color: #FFF2E7;
-    font-size: 32px;
+    font-size: 28px;
+    padding-right: 32px;
 }
 
 .conteudo-principal-imagem{
-    height: 320px;
+    width: 430px;
+    height: 430px;
+    padding-left: 24px;
 }
 
 .conteudo-secundario{
     display:flex;
+    flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 48px;
-    border-top: 0.4px solid #FFF2E7;
 }
 
-.podcast-categoria{
+.conteudo-secundario-escrito{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.titulo2{
     font-family: 'Righteous', cursive;
+    font-weight: 400;
+    color:#FFF2E7;
+    font-size: 100px;
+    padding-left: 48px;
+}
+
+.subtitulo2{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
     color: #FFF2E7;
-    font-size: 52px;
+    font-size: 26px;
+    margin-left: 28px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobrepodcast{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.sobre{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #FFF2E7;
+    font-size: 24px;
+    margin-left: 34px;
+    
+}
+
+.
+
+.conteudo-secundario-imagem{
+    height: 400px;
+    border-radius: 30px ;
+    margin-right: 78px;
 }
 
 .rodape{
