@@ -8,7 +8,10 @@
 }
 body{
     font-size: 100%;
-    background: linear-gradient(38deg, #0d0744 0%, #0459a3 100%);
+    background: #360033; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, #360033, #0b8793); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, #360033, #0b8793);
+
 
 }
 
@@ -47,6 +50,9 @@ body{
 .conteudo{
     border-top: 0.4px solid #FFF2E7; 
     margin-bottom: 48px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .titulo{
@@ -73,10 +79,11 @@ body{
     border-top: 0.4px solid #FFF2E7; 
     padding-top: 48px;
     padding-bottom: 48px;
-    padding: 30px;
+    padding: 48px;
 }
 
 .perguntas{
+    margin-bottom: 20px;
     display:flex;
     flex-direction: column;
     align-items: center;
@@ -87,29 +94,45 @@ body{
     text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
 }
 
-.opcoes{
-    display: flex;
-    width: 363px;
-    height: 44px;
-    flex-direction: row;
-    justify-content: center;
-    color: #ECD6C4;
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    letter-spacing: 0.70px;
+.opcoes label {
+    position: relative;
+    padding-left: 30px;
+    cursor: pointer;
+    font-weight: bold; 
+    align-items: center;
 }
 
+.opcoes input[type="radio"]{
+    -webkit-appearance: none;
+    background-color: rgb(255, 255, 255);
+    width: 16px;
+    height: 16px;
+    position: relative;
+    border:1px solid #231c4c;
+    display:inline-block;
+    border-radius: 50px;
+  }
+
+  .opcoes input[type="radio"]:checked {
+    background-color: #1E90FF;
+  }
+  
 .botao{
-  background-color: #ECD6C4;
-  width: 260px;
-  height: 60px;
-  border: none;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 78px;
+  cursor: pointer;
+  background-color: #FFF2E7;
+  height: 80px;
+  width: 600px;
   box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
   border-radius: 16px;
   font-family: 'Sarala', sans-serif;
   font-weight: 400;
   font-size: 24px;
   color: #2F2325;
+
 }
 
 .botao:hover{

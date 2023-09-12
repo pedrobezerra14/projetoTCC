@@ -130,15 +130,14 @@ body{
     color: #FFF2E7;
     font-size: 24px;
     margin-left: 34px;
-    
 }
 
-.
-
 .conteudo-secundario-imagem{
-    height: 400px;
+    height: 500px;
     border-radius: 30px ;
+    margin-top: 78px;
     margin-right: 78px;
+    margin-left: 78px;
 }
 
 .rodape{

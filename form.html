@@ -86,8 +86,8 @@
       <div class="perguntas">
         <p>Você experimenta sintomas físicos, como palpitações cardíacas ou falta de ar?</p>
         <div class="opcoes">
-          <label><input type="radio" name="q9" value="1"> Sim</label>
-          <label><input type="radio" name="q9" value="0"> Não</label>
+          <label class="opcoes"><input type="radio" name="q9" value="1"> Sim</label>
+          <label class="opcoes"><input type="radio" name="q9" value="0"> Não</label>
         </div>
       </div>
 
@@ -98,16 +98,17 @@
           <label><input type="radio" name="q10" value="0"> Não</label>
         </div>
       </div>
-
+    </main>
     <button type="button" class="botao" onclick="calculateScore()">Calcular Pontuação</button>
   </form>
+
 
   <div id="result" style="display: none;">
     <h2 class="titulo">Resultado</h2>
     <p id="score"></p>
     <p id="analise"></p>
   </div>
-</main>
+
 
 <footer class="rodape">
   <img class="rodape-imagem" src="img/partebaixo.png">
@@ -146,10 +147,13 @@
 
       if (score <= 3) {
       analise.textContent = respostaBaixa;
+      analise.style.color = "#00ff0d";
       }else if (score > 3 && score <=6) {
       analise.textContent = respostaModerada;
+      analise.style.color = "#ff9900";
       }else {
       analise.textContent = respostaSignificativa;
+      analise.style.color = "#ff0000";
       }
     }
   </script>
