@@ -1,152 +1,160 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
 
-*{
-  margin: 0;
-  padding: 0;  
-  box-sizing: border-box;
-  text-decoration: none;
-}
-body{
-    font-size: 100%;
-    background: #360033; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to top, #360033, #0b8793); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to top, #360033, #0b8793);
+    *{
+    margin: 0;
+    padding: 0;  
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+    body{
+        font-size: 100%;
+        background-image: url(https://images.unsplash.com/photo-1675173503270-d5e0ec0e6fc5?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
 
 
-}
+    }
 
-.cabecalho{
+    .cabecalho{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        padding: 24px;
+    }
+
+    .logo{
+    height: 52px; 
+    }
+
+    .menu{
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-around;
-    padding: 24px;
-}
+    gap: 52px;
+    }
 
-.logo{
-   height: 52px; 
-}
+    .menu-item{
+        font-family: 'Sarala', sans-serif;
+        color: #FFF2E7;
+        font-weight: 400;
+        font-size: 18px;
+        text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    }
 
-.menu{
-   display: flex;
-   gap: 52px;
-}
+    .menu-item:hover{
+        border-style: none;
+        border-radius: 32px;
+        background-color: rgba(236, 214, 196, 0.53);
+        transition-duration: 0.6s;
+    }
 
-.menu-item{
-    font-family: 'Sarala', sans-serif;
-    color: #FFF2E7;
-    font-weight: 400;
-    font-size: 18px;
-    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-}
+    .conteudo{
+        border-top: 0.4px solid #FFF2E7; 
+        margin-bottom: 78px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+    }
 
-.menu-item:hover{
-    border-style: none;
-    border-radius: 32px;
-    background-color: rgba(236, 214, 196, 0.53);
-    transition-duration: 0.6s;
-}
+    .titulo{
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        color:#FFF2E7;
+        font-size: 64px;
+        margin-bottom: 48px;
+        margin-left: 32px;
+        margin-top: 32px;
+    }
 
-.conteudo{
-    border-top: 0.4px solid #FFF2E7; 
-    margin-bottom: 48px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-}
+    .paragrafo{
+        color: #FFF2E7;
+        text-align: left;
+        font-size: 24px;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 300;
+        margin-left: 24px;
+        margin-bottom: 48px;
+    }
 
-.titulo{
-    font-family: 'Righteous', cursive;
-    font-weight: 400;
-    color:#FFF2E7;
-    font-size: 64px;
-    margin-bottom: 48px;
-    margin-left: 32px;
-    margin-top: 32px;
-}
+    .formulario{   
+        border-top: 0.4px solid #FFF2E7; 
+        padding-top: 48px;
+        padding-bottom: 48px;
+        padding: 48px;
+    }
 
-.paragrafo{
-    color: #FFF2E7;
-    text-align: left;
-    font-size: 24px;
-    font-family: 'Sarala', sans-serif;
-    font-weight: 300;
-    margin-left: 24px;
-    margin-bottom: 48px;
-}
+    .perguntas{
+        margin-bottom: 20px;
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Sarala', sans-serif;
+        font-weight: 400;
+        font-size: 24px;
+        color: #FFF2E7;
+        text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    }
 
-.formulario{   
-    border-top: 0.4px solid #FFF2E7; 
-    padding-top: 48px;
-    padding-bottom: 48px;
-    padding: 48px;
-}
+    .opcoes label {
+        position: relative;
+        padding-left: 30px;
+        cursor: pointer;
+        font-weight: bold; 
+        align-items: center;
+    }
 
-.perguntas{
-    margin-bottom: 20px;
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    font-family: 'Sarala', sans-serif;
-    font-weight: 400;
-    font-size: 24px;
-    color: #FFF2E7;
-    text-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-}
+    .opcoes input[type="radio"]{
+        -webkit-appearance: none;
+        background-color: rgb(255, 255, 255);
+        width: 16px;
+        height: 16px;
+        position: relative;
+        border:1px solid #231c4c;
+        display:inline-block;
+        border-radius: 50px;
+    }
 
-.opcoes label {
-    position: relative;
-    padding-left: 30px;
-    cursor: pointer;
-    font-weight: bold; 
-    align-items: center;
-}
-
-.opcoes input[type="radio"]{
-    -webkit-appearance: none;
-    background-color: rgb(255, 255, 255);
-    width: 16px;
-    height: 16px;
-    position: relative;
-    border:1px solid #231c4c;
-    display:inline-block;
-    border-radius: 50px;
-  }
-
-  .opcoes input[type="radio"]:checked {
-    background-color: #1E90FF;
-  }
-  
-.botao{
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 78px;
-  cursor: pointer;
-  background-color: #FFF2E7;
-  height: 80px;
-  width: 600px;
-  box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-  border-radius: 16px;
-  font-family: 'Sarala', sans-serif;
-  font-weight: 400;
-  font-size: 24px;
-  color: #2F2325;
-
-}
-
-.botao:hover{
-    background-color: rgba(236, 214, 196, 0.53);
-    transition-duration: 0.6s;
-}
-
-.rodape{
-    border-top: 0.4px solid #FFF2E7;
-    padding: 32px;
-}
-
-.rodape-imagem{
-    height: 120px;
+    .opcoes input[type="radio"]:checked {
+        background-color: #1E90FF;
+    }
+    
+    .botao{
     display: block;
-    margin: 0 auto ;
-}
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 78px;
+    cursor: pointer;
+    background-color: #FFF2E7;
+    height: 80px;
+    width: 600px;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 16px;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+
+    }
+
+    .botao:hover{
+        background-color: rgba(236, 214, 196, 0.53);
+        transition-duration: 0.6s;
+    }
+
+    .resultado{
+        font-family: 'Righteous', cursive;
+        font-weight: 400;
+        color: #2F2325;
+        text-align: center;
+        font-size: 120px;
+        margin-bottom: 12px;
+        padding-top: 32px;
+    }
+
+    .rodape{
+        border-top: 0.4px solid #FFF2E7;
+        padding: 32px;
+    }
+
+    .rodape-imagem{
+        height: 120px;
+        display: block;
+        margin: 0 auto ;
+    }

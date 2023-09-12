@@ -1,161 +1,194 @@
-<!DOCTYPE html>
-<html>
-<head>
+  <!DOCTYPE html>
+  <html>
+  <head>
   <link rel="shortcut icon" href="img/transtorno-de-ansiedade.ico" type="image/x-icon"/>
   <title>Questionário de Ansiedade</title>
   <link rel="stylesheet" type="text/css" href="css/formstyle.css">
-</head>
-<body>
-  <header class="cabecalho">
-        <img class="logo" src="img/logosite2.png" alt="Logo do site">
-        <nav class="menu">
-           <a class="menu-item">Artigos</a>
-           <a class="menu-item">Podcasts</a>
-           <a class="menu-item">Psicólogos</a>
-       </nav>
-       </header>
+  </head>
+  <body>
+    <header class="cabecalho">
+      <a href="index.html"><img class="logo" src="img/logosite2.png" alt="Logo do site"></a>
+    <nav class="menu">
+      <a class="menu-item" href="sobre.html">Saiba Mais</a>
+      <a class="menu-item" href="form.html">Questionário</a>
+      <a class="menu-item" href="podcasts.html">Podcasts</a>
+      <a class="menu-item"                     >Psicólogos</a> 
+      <a class="menu-item"                     >Artigos</a>
+    </nav>
+    </header>
   <main class="conteudo">     
   <h1 class="titulo">Questionário de Ansiedade</h1>
   <p class="paragrafo">Essas perguntas abordam diferentes aspectos relacionados à ansiedade e podem ajudar a fornecer uma avaliação mais abrangente do nível de ansiedade de cada pessoa. Lembre-se sempre de que o questionário online não substitui uma avaliação profissional. É de suma importância buscar a ajuda de um profissional de saúde mental caso os resultados indiquem um nível significativo de ansiedade.</p>
 
   <form id="formulario">
-    <div class="perguntas">
-      <p>Você se sente constantemente preocupado ou apreensivo?</p>
+  <div class="perguntas">
+    <p>Você se sente constantemente preocupado ou apreensivo?</p>
+    <div class="opcoes">
+      <label><input type="radio" name="q1" value="1"> Sim</label>
+      <label><input type="radio" name="q1" value="0"> Não</label>
+    </div>
+  </div>
+
+  <div class="perguntas">
+    <p>Você tem dificuldade em relaxar ou ficar tranquilo(a)?</p>
+    <div class="opcoes">
+      <label><input type="radio" name="q2" value="1"> Sim</label>
+      <label><input type="radio" name="q2" value="0"> Não</label>
+    </div>
+  </div>
+
+  <div class="perguntas">
+      <p>Você tem dificuldade em adormecer ou em ter um sono tranquilo?</p>
       <div class="opcoes">
-        <label><input type="radio" name="q1" value="1"> Sim</label>
-        <label><input type="radio" name="q1" value="0"> Não</label>
+        <label><input type="radio" name="q3" value="1"> Sim</label>
+        <label><input type="radio" name="q3" value="0"> Não</label>
       </div>
     </div>
 
     <div class="perguntas">
-      <p>Você tem dificuldade em relaxar ou ficar tranquilo(a)?</p>
+      <p>Você se sente facilmente cansado ou com falta de energia?</p>
       <div class="opcoes">
-        <label><input type="radio" name="q2" value="1"> Sim</label>
-        <label><input type="radio" name="q2" value="0"> Não</label>
+        <label><input type="radio" name="q4" value="1"> Sim</label>
+        <label><input type="radio" name="q4" value="0"> Não</label>
       </div>
     </div>
 
     <div class="perguntas">
-        <p>Você tem dificuldade em adormecer ou em ter um sono tranquilo?</p>
-        <div class="opcoes">
-          <label><input type="radio" name="q3" value="1"> Sim</label>
-          <label><input type="radio" name="q3" value="0"> Não</label>
-        </div>
+      <p>Você tem dificuldade em se concentrar ou manter o foco em tarefas?</p>
+      <div class="opcoes">
+        <label><input type="radio" name="q5" value="1"> Sim</label>
+        <label><input type="radio" name="q5" value="0"> Não</label>
       </div>
+    </div>
 
-      <div class="perguntas">
-        <p>Você se sente facilmente cansado ou com falta de energia?</p>
-        <div class="opcoes">
-          <label><input type="radio" name="q4" value="1"> Sim</label>
-          <label><input type="radio" name="q4" value="0"> Não</label>
-        </div>
+    <div class="perguntas">
+      <p>Você se sente irritado(a) com frequência ou tem explosões de raiva?</p>
+      <div class="opcoes">
+        <label><input type="radio" name="q6" value="1"> Sim</label>
+        <label><input type="radio" name="q6" value="0"> Não</label>
       </div>
+    </div>
 
-      <div class="perguntas">
-        <p>Você tem dificuldade em se concentrar ou manter o foco em tarefas?</p>
-        <div class="opcoes">
-          <label><input type="radio" name="q5" value="1"> Sim</label>
-          <label><input type="radio" name="q5" value="0"> Não</label>
-        </div>
+    <div class="perguntas">
+      <p>Você evita situações que podem desencadear ansiedade?</p>
+      <div class="opcoes">
+        <label><input type="radio" name="q7" value="1"> Sim</label>
+        <label><input type="radio" name="q7" value="0"> Não</label>
       </div>
+    </div>
 
-      <div class="perguntas">
-        <p>Você se sente irritado(a) com frequência ou tem explosões de raiva?</p>
-        <div class="opcoes">
-          <label><input type="radio" name="q6" value="1"> Sim</label>
-          <label><input type="radio" name="q6" value="0"> Não</label>
-        </div>
+    <div class="perguntas">
+      <p>Você sente tensão muscular, como apertar os maxilares ou ter dores nas costas?</p>
+      <div class="opcoes">
+        <label><input type="radio" name="q8" value="1"> Sim</label>
+        <label><input type="radio" name="q8" value="0"> Não</label>
       </div>
+    </div>
 
-      <div class="perguntas">
-        <p>Você evita situações que podem desencadear ansiedade?</p>
-        <div class="opcoes">
-          <label><input type="radio" name="q7" value="1"> Sim</label>
-          <label><input type="radio" name="q7" value="0"> Não</label>
-        </div>
+    <div class="perguntas">
+      <p>Você experimenta sintomas físicos, como palpitações cardíacas ou falta de ar?</p>
+      <div class="opcoes">
+        <label class="opcoes"><input type="radio" name="q9" value="1"> Sim</label>
+        <label class="opcoes"><input type="radio" name="q9" value="0"> Não</label>
       </div>
+    </div>
 
-      <div class="perguntas">
-        <p>Você sente tensão muscular, como apertar os maxilares ou ter dores nas costas?</p>
-        <div class="opcoes">
-          <label><input type="radio" name="q8" value="1"> Sim</label>
-          <label><input type="radio" name="q8" value="0"> Não</label>
-        </div>
+    <div class="perguntas">
+      <p>Você tem pensamentos negativos recorrentes ou medos irracionais?</p>
+      <div class="opcoes">
+        <label><input type="radio" name="q10" value="1"> Sim</label>
+        <label><input type="radio" name="q10" value="0"> Não</label>
       </div>
-
-      <div class="perguntas">
-        <p>Você experimenta sintomas físicos, como palpitações cardíacas ou falta de ar?</p>
-        <div class="opcoes">
-          <label class="opcoes"><input type="radio" name="q9" value="1"> Sim</label>
-          <label class="opcoes"><input type="radio" name="q9" value="0"> Não</label>
-        </div>
-      </div>
-
-      <div class="perguntas">
-        <p>Você tem pensamentos negativos recorrentes ou medos irracionais?</p>
-        <div class="opcoes">
-          <label><input type="radio" name="q10" value="1"> Sim</label>
-          <label><input type="radio" name="q10" value="0"> Não</label>
-        </div>
-      </div>
-    </main>
-    <button type="button" class="botao" onclick="calculateScore()">Calcular Pontuação</button>
+    </div>
+  </main>
+  <button type="button" class="botao" onclick="calculateScore()">Calcular Pontuação</button>
   </form>
 
 
-  <div id="result" style="display: none;">
-    <h2 class="titulo">Resultado</h2>
-    <p id="score"></p>
-    <p id="analise"></p>
-  </div>
+  <div id="result" style="background-color: rgb(255, 255, 255); display: none;">
+  <h2 class="resultado">Resultado</h2>
+  <p id="score"></p>
+  <p id="analise"></p>
+  </div><br></br><br></br><br></br>
 
+  <footer class="rodape">
+    <a href="index.html"><img class="rodape-imagem" src="img/partebaixo.png"></a>
+  </footer>
 
-<footer class="rodape">
-  <img class="rodape-imagem" src="img/partebaixo.png">
- </footer>
 
   <script>
-    function calculateScore() {
-      var form = document.getElementById("formulario");
-      var score = 0;
+  function calculateScore() {
+    var form = document.getElementById("formulario");
+    var score = 0;
 
-      score += parseInt(form.q1.value);
-      score += parseInt(form.q2.value);
-      score += parseInt(form.q3.value);
-      score += parseInt(form.q4.value);
-      score += parseInt(form.q5.value);
-      score += parseInt(form.q6.value);
-      score += parseInt(form.q7.value);
-      score += parseInt(form.q8.value);
-      score += parseInt(form.q9.value);
-      score += parseInt(form.q10.value);
+    score += parseInt(form.q1.value);
+    score += parseInt(form.q2.value);
+    score += parseInt(form.q3.value);
+    score += parseInt(form.q4.value);
+    score += parseInt(form.q5.value);
+    score += parseInt(form.q6.value);
+    score += parseInt(form.q7.value);
+    score += parseInt(form.q8.value);
+    score += parseInt(form.q9.value);
+    score += parseInt(form.q10.value);
 
-      displayResult(score);
+    displayResult(score);
+  }
+
+  function displayResult(score) {
+    var result = document.getElementById("result");
+    var scoreText = document.getElementById("score");
+    var analise = document.getElementById("analise");
+
+    result.style.display = "block";
+    scoreText.textContent = "Sua pontuação é: " + score;
+    scoreText.style.color = "black";
+    scoreText.style.fontSize = "24px";
+    scoreText.style.textAlign = "center";
+    scoreText.style.fontFamily = "'Sarala', sans-serif";
+    scoreText.style.backgroundColor = "white";
+
+    var respostaBaixa = "De acordo com as suas respostas do formulário," + " você pode ter uma baixa pontuação de ansiedade.";
+    var respostaModerada = "De acordo com as suas respostas do formulário," + " você pode ter uma pontuação de ansiedade moderada"+" Recomenda-se buscar ajuda profissional.";
+    var respostaSignificativa = "De acordo com as suas respostas do formulário,"+" você pode ter uma pontuação de ansiedade significativa."+" É de suma importância buscar ajuda profissional para melhores conclusões.";
+
+    if (score <= 3) {
+    analise.textContent = respostaBaixa;
+    analise.style.color = "Black";
+    analise.style.fontSize = "24px";
+    analise.style.textAlign = "center";
+    analise.style.fontFamily = "'Sarala', sans-serif";
+    analise.style.backgroundColor = "white";
+    analise.style.paddingBottom = "52px";
+    analise.style.marginLeft = "52px";
+    analise.style.marginRight = "52px";
+
+    }else if (score > 3 && score <=6) {
+    analise.textContent = respostaModerada;
+    analise.style.color = "Black";
+    analise.style.fontSize = "24px";
+    analise.style.textAlign = "center";
+    analise.style.fontFamily = "'Sarala', sans-serif";
+    analise.style.backgroundColor = "white";
+    analise.style.paddingBottom = "52px";
+    analise.style.marginLeft = "52px";
+    analise.style.marginRight = "52px";
+
+
+    }else {
+    analise.textContent = respostaSignificativa;
+    analise.style.color = "Black";
+    analise.style.fontSize = "24px";
+    analise.style.textAlign = "center";
+    analise.style.fontFamily = "'Sarala', sans-serif";
+    analise.style.backgroundColor = "white";
+    analise.style.paddingBottom = "52px";
+    analise.style.marginLeft = "52px";
+    analise.style.marginRight = "52px";
+
     }
 
-    function displayResult(score) {
-      var result = document.getElementById("result");
-      var scoreText = document.getElementById("score");
-      var analise = document.getElementById("analise");
-
-      result.style.display = "block";
-      scoreText.textContent = "Sua pontuação é: " + score;
-
-      var respostaBaixa = "De acordo com as suas respostas do formulário, você pode ter uma baixa pontuação de ansiedade.";
-      var respostaModerada = "De acordo com as suas respostas do formulário, você pode ter uma pontuação de ansiedade moderada. Recomenda-se buscar ajuda profissional.";
-      var respostaSignificativa = "De acordo com as suas respostas do formulário, você pode ter uma pontuação de ansiedade significativa. É de suma importância buscar ajuda profissional para melhores conclusões.";
-
-      if (score <= 3) {
-      analise.textContent = respostaBaixa;
-      analise.style.color = "#00ff0d";
-      }else if (score > 3 && score <=6) {
-      analise.textContent = respostaModerada;
-      analise.style.color = "#ff9900";
-      }else {
-      analise.textContent = respostaSignificativa;
-      analise.style.color = "#ff0000";
-      }
-    }
+  }
   </script>
-</body>
-</html>
+  </body>
+  </html>
