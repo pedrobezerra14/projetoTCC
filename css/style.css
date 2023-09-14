@@ -79,17 +79,18 @@
     }
 
     .botao{
-    background-color: #ECD6C4;
-    width: 180px;
-    height: 60px;
-    border: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-right: 120px;
+    cursor: pointer;
+    background-color: #eeeeee;
+    height: 50px;
+    width: 600px;
     box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
-    border-radius: 20px;
+    border-radius: 10px;
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     font-size: 24px;
-    color: #ffffff;
-    margin-left: 310px;
     }
 
     .botao:hover{
@@ -99,6 +100,7 @@
 
     .conteudo-principal-imagem{
         height: 430px;
+        margin-right: 40px;
     }
 
     .conteudo-secundario{

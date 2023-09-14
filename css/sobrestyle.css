@@ -8,8 +8,8 @@
 }
 body{
     font-size: 100%;
-    background: linear-gradient(38deg, #0d0744 0%, #0459a3 100%);
-
+    background-image: url('img/fundo.jpg');
+    background-size: cover;
 }
 
 .cabecalho{

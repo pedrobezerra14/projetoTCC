@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Righteous&family=Sarala&display=swap');
 
 *{
   margin: 0;
@@ -54,23 +54,22 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    margin: 52px;
-
+    /* margin: 52px; */
     padding: 170px;
-
 }
 
 .conteudo-principal-escrito{
     display: flex;
     flex-direction: column;
     gap: 18px;
+    padding-right: 32px;
 }
 
 .titulo{
     font-family: 'Righteous', cursive;
     font-weight: 400;
     color:#FFF2E7;
-    font-size: 172px;
+    font-size: 162px;
 }
 
 .subtitulo{
@@ -82,9 +81,8 @@ body{
 }
 
 .conteudo-principal-imagem{
-    width: 430px;
+    width: 400px;
     height: 430px;
-    padding-left: 24px;
 }
 
 .conteudo-secundario{
@@ -112,7 +110,7 @@ body{
     font-family: 'Sarala', sans-serif;
     font-weight: 400;
     color: #FFF2E7;
-    font-size: 26px;
+    font-size: 24px;
     margin-left: 28px;
     display: flex;
     flex-direction: column;
@@ -125,19 +123,30 @@ body{
 }
 
 .sobre{
-    font-family: 'Sarala', sans-serif;
+    padding-top: 24px;
+    padding-bottom: 12px;
+    font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
     color: #FFF2E7;
     font-size: 24px;
     margin-left: 34px;
 }
 
+.infos{
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    color: #FFF2E7;
+    font-size: 24px;
+    font-weight: 700;
+
+}
+
 .conteudo-secundario-imagem{
-    height: 500px;
+    height: 470px;
     border-radius: 30px ;
     margin-top: 78px;
     margin-right: 78px;
-    margin-left: 78px;
+    margin-left: 52px;
 }
 
 .rodape{
