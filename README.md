@@ -5,10 +5,10 @@
 <br>
  
 ## 📝Índice
-- <a href="## 👨‍💻funcionalidades-do-projeto">Funcionalidades do Projeto</a>
-- <a href="## 💠layout">Layout</a>
-- <a href="## 💻como-rodar-este-projeto">Como rodar este projeto?</a>
-- <a href="## 🔧tecnologias-utilizadas">Tecnologias Utilizadas</a>
+- <a href="##-👨‍💻funcionalidades-do-projeto">Funcionalidades do Projeto</a>
+- <a href="##-💠layout">Layout</a>
+- <a href="##-💻como-rodar-este-projeto">Como rodar este projeto?</a>
+- <a href="##-🔧tecnologias-utilizadas">Tecnologias Utilizadas</a>
 
 ## 👨‍💻Funcionalidades do Projeto
 
@@ -67,19 +67,21 @@
     
 7. Pressione *ENTER* para criar seu clone local.
   - Exemplo: 
-   ```bash 
+```bash 
     $ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
     Cloning into `Spoon-Knife`...
     remote: Counting objects: 10, done.
     remote: Compressing objects: 100% (8/8), done.
     remove: Total 10 (delta 1), reused 10 (delta 1)
     Unpacking objects: 100% (10/10), done.
-    ```
+```
 <br>
 
 * Caso ocorra algum erro na clonagem do repositório, é só acessar o site:<br>
 
-  * [Solucionar problemas de erros de clonagem](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository#troubleshooting-cloning-errors)
+  * [Solucionar problemas de erros de clonagem](https://docs.github.com/pt/repositories/creating-and-managing-repositories/cloning-a-repository#troubleshooting-cloning-error)
+
+<br>
 
 ## 🔧Tecnologias Utilizadas 
 1. [HTML- Linguagem de Marcação de Hipertexto](https://pt.wikipedia.org/wiki/HTML)<br>
