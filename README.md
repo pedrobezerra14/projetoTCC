@@ -5,10 +5,10 @@
 <br>
  
 ## 📝Índice
-- <a href="##-👨‍💻funcionalidades-do-projeto">Funcionalidades do Projeto</a>
-- <a href="##-💠layout">Layout</a>
-- <a href="##-💻como-rodar-este-projeto">Como rodar este projeto?</a>
-- <a href="##-🔧tecnologias-utilizadas">Tecnologias Utilizadas</a>
+- <a href="#funcionalidades">Funcionalidades do Projeto</a>
+- <a href="#layout">Layout</a>
+- <a href="#rodar">Como rodar este projeto?</a>
+- <a href="#tecnologias">Tecnologias Utilizadas</a>
 
 ## 👨‍💻Funcionalidades do Projeto
 
