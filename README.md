@@ -3,6 +3,9 @@
 >Projeto desenvolvido para um Trabalho de Conclusão de Curso(TCC)🎓
 ## Este site tem caráter informativo e de incentivo para que pessoas com Transtorno de Ansiedade Generalizada(TAG) busquem ajuda profissional adequada.👨‍⚕️
 <br>
+
+## Deploy 
+- https://pedrobezerra14.github.io/projetoTCC/
  
 ## 📝Índice
 - <a href="#funcionalidades">Funcionalidades do Projeto</a>
